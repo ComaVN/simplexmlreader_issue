@@ -1,0 +1,21 @@
+{
+    "name" : "simplexmlreader_issue",
+    "license" : "beerware",
+    "type" : "project",
+    "description" : "Reproduction example for a SimpleXmlReader issue",
+    "authors" : [
+        {
+            "name" : "Roel Harbers",
+            "email" : "roelharbers@gmail.com"
+        }
+    ],
+    "minimum-stability" : "stable",
+    "require" : {
+        "suramon/simple-xml-reader" : "^1.2.1"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
